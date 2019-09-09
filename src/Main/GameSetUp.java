@@ -121,7 +121,7 @@ public class GameSetUp implements Runnable {
         //initiallizes everything in order to run without breaking
         init();
 
-        int fps = 60;
+        int fps = 50;
         double timePerTick = 1000000000 / fps;
         double delta = 0;
         long now;
